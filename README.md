@@ -1,2 +1,2 @@
-# Aprendendo-JavaScript
+# JavaScript
 Algumas atividades realizadas em JavaScript
