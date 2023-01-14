@@ -1,0 +1,16 @@
+@charset "UTF-8";
+#arial{
+    font-family: Arial, "Arial Black", sans-serif;
+}
+#helvetica{
+    font-family: Helvetica, Arial, sans-serif;
+}
+#timesNR{
+    font-family: "Times New Roman", Times, serif;
+}
+#courier{
+    font-family: Courier, "Courier New", monospace;
+}
+#cursive{
+    font-family: "Dancing Script", cursive;
+}

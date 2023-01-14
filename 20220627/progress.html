@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Bar</title>
+    <script>
+        function mais(){
+           var pr = document.getElementById("pr");
+           if (pr.value == 100){
+            alert("Máximo");
+           }
+           else {
+             pr.value = pr.value + 10;
+           }
+        }
+        function menos(){
+           var pr = document.getElementById("pr");
+           if (pr.value == 0){
+            alert("Minimo");
+           }
+           else {
+           pr.value = pr.value - 10;
+           }
+        }
+    </script>
+</head>
+<body>
+    <button name="menos" id="menos" onclick="menos()">-</button>
+    <progress name="pr" id="pr" value="0" max="100"></progress>
+    <button name="mais" id="mais" onclick="mais()">+</button>
+</body>
+</html>

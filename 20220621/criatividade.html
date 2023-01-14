@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <script id = js>
+        alert("Olá!" + "\n" +
+             "Vamos te ajudar a valorizar seu rosto ainda mais!");
+        valorizar = prompt("Quais dicas de valorização você deseja aprender?" + "\n" +
+                    "Olhos" + "\n" + 
+                    "Nariz" + "\n" +
+                    "Lábios" + "\n" + 
+                    "Rosto em geral");
+
+        if (valorizar == "Olhos" || valorizar == "olhos"){
+             aumDim = prompt("Você quer aumentar ou diminuir o tamanho dos seus olhos?");
+            if (aumDim == "Aumentar" || aumDim == "aumentar")
+                 alert("Nas pálpebras, passe sombras claras e lápis no lado externo dos cílios superiores e inferiores. Isso dá uma impressão de serem maiores.");
+            if (aumDim == "Diminuir" || aumDim == "diminuir")
+                 alert("Aplique sombras e lápis em tons mais escuros na parte interna dos cílios superiores e inferiores. Isso dá uma impressão de serem menores.");
+        }
+
+        else if (valorizar == "Nariz" || valorizar == "nariz"){
+             alert("Para afinar o nariz, aplique um corretivo mais claro ou um iluminador no alto do nariz, até quase a ponta, em linha reta.");
+        }
+
+        else if (valorizar == "Lábios" || valorizar == "lábios" || valorizar == "Labios" || valorizar == "labios"){
+             labios = prompt("Você quer aumentar ou diminuir o volume dos lábios?");
+            if (labios == "Aumentar" || labios == "aumentar")
+                 alert("Desenhe um novo contorno com um lápis labial rente à boca. Sempre aplique um batom do mesmo tom do lápis, sem deixar o traço visível e depois finalize com o gloss. Aplicar iluminador entre o lábio superior e o nariz também ajuda a dar destaque na boca e fica lindo com batom vermelho.");
+            if (labios == "Diminuir" || labios == "diminuir")
+                 alert("Aplique corretivo nos lábios para apagar o contorno natural. Depois, preencha os lábios com o batom.");
+        }
+
+        else if (valorizar == "Rosto em geral" || valorizar == "rosto em geral" || valorizar == "Rosto" || valorizar == "rosto"){
+             rosto = prompt("Qual das opções você deseja: " + "\n" + 
+                           "Disfarçar olheiras" + "\n" + 
+                           "Ou" + "\n" +
+                           "Dicas para Blush");
+            if (rosto == "Disfarçar olheiras" || rosto == "disfarçar olheiras" || rosto == "Olheiras" || rosto == "olheiras")
+                 alert("Para disfarçar olheiras, opte por corretivos rosados ou tom pêssego. Peles claras corrigem melhor com tons rosados iluminados e peles morenas corrigem melhor com tons pêssego. Aplique primeiro a base e depois o corretivo.");
+            else if (rosto == "Dicas para Blush" || rosto == "dicas para blush" || rosto == "dicas" || rosto == "Dicas" || rosto == "Blush" || rosto == "blush")
+                redondo =  prompt("Seu rosto é mais redondo?" + "\n" +
+                                   "Responda com SIM ou NÃO.");
+                if (redondo == "SIM" || redondo == "Sim" || redondo == "sim")
+                     alert("Para aplicar o blush faça boca de peixinho. A região do rosto que ficar mais murchinha recebe uma linha diagonal do produto, entre o canto da boca e as orelhas. Depois, esfume bem o blush para que ele não fique marcado");
+                if (redondo == "NÃO" || redondo == "Não" || redondo == "não" || redondo == "nao" || redondo == "Nao")
+                     alert("Para aplicar o blush dê um sorriso em frente ao espelho. O lugar do rosto que ficar mais saliente é onde o blush deve ser espalhado.");
+        }
+        else 
+            alert("Não encontrado!");
+    </script>
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Makes</title>
+</head>
+<body>
+    <h1>Mais dicas em breve!</h1>
+    <p>Att. equipe de dicas...</p>
+</body>
+</html>

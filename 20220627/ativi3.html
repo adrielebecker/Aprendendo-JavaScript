@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        function senhas(){
+        senha = document.getElementById('senha').value;
+        confirmar = document.getElementById('confirmar').value;
+        if (senha == confirmar){
+            alert("OK!");
+        }
+        else{
+            alert("ERRO!");
+        }
+        }
+    </script>
+    <title>Atividade 3</title>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Atividade 3 JS</legend>
+            <label for="senha">Digite a sua senha:</label>
+            <input type="password" name="senha" id="senha"><br>
+            <label for="confirmar">Confirme a sua senha:</label>
+            <input type="password" name="confirmar" id="confirmar"><br>
+            <input type="button" onclick="senhas()" value="Confirmar senha!">
+        </fieldset>
+    </form>
+</body>
+</html>

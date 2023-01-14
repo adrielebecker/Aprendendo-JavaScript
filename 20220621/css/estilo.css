@@ -1,0 +1,13 @@
+@charset "UTF-8";
+body{
+    background-image: url(../img/fundo.jpg);
+    background-repeat: no-repeat;
+}
+h1{
+    color: #fff;
+    margin: 100px 100px 100px 100px;
+}
+p{
+    color: #fff;
+    margin: 100px;
+}

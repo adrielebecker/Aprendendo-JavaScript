@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textarea</title>
+    <script>
+        function mais1(){
+            var textA = document.getElementById("textA");
+            textA.cols = textA.cols + 10;
+        }
+        function menos1(){
+           var textA = document.getElementById("textA");
+           textA.cols = textA.cols - 10;
+        }
+        function mais2(){
+            var textA = document.getElementById("textA");
+            textA.rows = textA.rows + 10;
+        }
+        function menos2(){
+           var textA = document.getElementById("textA");
+           textA.rows = textA.rows - 10;
+        }
+
+    </script>
+</head>
+<body>
+    <textarea name="textA" id="textA" cols="0" rows="0"></textarea>
+    <p>Colunas:</p>
+    <button name="mais1" id="mais1" onclick="mais1()">+</button>
+    <button name="menos1" id="menos1" onclick="menos1()">-</button>
+    <br><br>
+    <p>Linhas:</p>
+    <button name="mais2" id="mais2" onclick="mais2()">+</button>
+    <button name="menos2" id="menos2" onclick="menos2()">-</button>
+</body>
+</html>
